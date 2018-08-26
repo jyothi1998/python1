@@ -1,5 +1,5 @@
-ch = input("enter a character:")
+ch = raw-input()
 if(ch == 'a','e','i','o','u'):
-    print (ch,"is vowel")
+    print ("Vowel")
 else:
-    print(ch,"is consonent")
+    print("Consonent")
