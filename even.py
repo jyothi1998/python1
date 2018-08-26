@@ -1,6 +1,6 @@
-num = int(input("enter a number:"))
-if(num%2==0):
-    print("even")
+n = int(raw_input())
+if(n%2==0):
+    print("Even")
 else:    
-    print("odd")
+    print("Odd")
     
