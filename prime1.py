@@ -1,10 +1,12 @@
-n=int(raw_input())
-if (n==1):
-     return false
- elif (n==2):
-     return true;
- else:
-     for x in range(2,1000):
-          if(n % x==0):
-          	  return false
-       return true   	  
+n = int(raw_input())
+
+# prime number is always greater than 1
+if n > 1:
+    for i in range(2, n):
+        if (n % i) == 0:
+            print("no")
+            break
+    else:
+        print("yes")
+
+    
