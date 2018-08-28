@@ -1,5 +1,5 @@
 n = int(raw_input())
 if(n%2==0): 
-     print("no")
+     print("No")
 else:
-     print("yes")	
+     print("Yes")	
