@@ -1,4 +1,4 @@
-n = int(raw_input())
+n = raw_input()
 if type(n) == int:
     print ("Yes")
 else:
