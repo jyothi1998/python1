@@ -1,6 +1,6 @@
-n=int(raw_input())
+num=int(raw_input())
 fact=1
-if n==0:
+if num==0:
    print(1)
 else:
    for i in range(1,n+1):
