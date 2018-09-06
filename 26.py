@@ -1,4 +1,4 @@
-m=raw_input()
-list=[int(y) for y in raw_input().split()]
+z=raw_input()
+list=[int(a) for a in raw_input().split()]
 list.sort()
 print " ".join(map(str,list))
