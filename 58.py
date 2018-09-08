@@ -1,6 +1,7 @@
-n=int(raw_input())
-count=0
-while n>0:
-    count=count+1
-    n=n//10
-print count    
+x,y=map(int,raw_input().split())
+list=[int(p) for p in raw_input().split()]
+if x and y in list:
+    print "yes"
+else:
+    print "no"
+    
