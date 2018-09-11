@@ -13,7 +13,7 @@ def isPalindrome(n):
   
   
 # Driver code 
-n = "malayalam"
+n = raw_input()
 ans = isPalindrome(n) 
   
 if ans == 1: 
