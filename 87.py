@@ -5,4 +5,4 @@ def gcd(m,n):
         return n
     else:
         return gcd(z,min(m,n))
-print gcd(a,b)
+print gcd(c,d)
