@@ -1,4 +1,4 @@
-a,b,c=map(int,raw_input().split())
-x=a*b
-y=x/c
-print y
+x,y,z=map(int,raw_input().split())
+m=x*y
+n=m/z
+print n
