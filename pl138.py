@@ -1,4 +1,4 @@
-a=int(input('enter a number'))
+a=int(input(''))
 i=2
 while (i<=a) :
   if i==a:
@@ -6,4 +6,4 @@ while (i<=a) :
     break
   i=i*2
 if i!=a:
-  print('no'
+  print('no')
